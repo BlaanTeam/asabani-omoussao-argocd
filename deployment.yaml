@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-app-container
-          image: docker.io/wil42/playground
+          image: registry-1.docker.io/wil42/playground
           tag: v1
           ports:
             - containerPort: 8888
