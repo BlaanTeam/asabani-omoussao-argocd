@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-app-container
-          image: asabani/iot-app:v1
+          image: asabani/iot-app:v2
           ports:
             - containerPort: 8888
           resources:
